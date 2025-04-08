@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin: 0;
+    font-size: 50px;
+    color: yellow;
+    font-style: italic;
+}
+
+.container {
+    border: 4px solid maroon;
+    width: 700px;
+    height: 500px;
+    margin-bottom: 20px;
+    background-color: red;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.display-screen {
+    overflow: hidden;
+    border: 4px solid maroon;
+    border-radius: 20px;
+    width: 80%;
+    height: 70%;
+    position: relative;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pointer {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.my-canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-knobs {
+    width: 100%;
+    height: 15%;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-knob, .up-knob, .down-knob, .right-knob {
+    border: 4px solid #7d7d7d;
+    width: 80px;
+    height: 80px;
+    color: #7d7d7d;
+    font-weight: 900;
+    background-color: lightgrey;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+.instructions {
+    font-weight: 900;
+    font-size: 11px;
+    color: white;
+    background-color: black;
+}
